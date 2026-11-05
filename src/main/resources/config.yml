@@ -1,0 +1,16 @@
+# Fuso horario usado nas mensagens de invasao
+fuso: America/Sao_Paulo
+
+# Margem (em blocos) ao redor das pecas da estrutura para considerar "dentro"
+margem: 1.0
+
+# Quantos alertas mostrar quando o jogador entra no servidor (os mais recentes)
+alertas-ao-entrar: 10
+
+chave:
+  # Dono vira renegado se o item da chave for destruido (fogo, lava, cactus, despawn, vazio...)
+  renegado-se-destruida: true
+  # Dono vira renegado se alguem de OUTRA dupla pegar a chave dele
+  renegado-se-roubada: true
+  # Dono vira renegado se simplesmente dropar a chave
+  renegado-se-dropada: false
